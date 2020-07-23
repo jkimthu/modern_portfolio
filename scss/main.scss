@@ -94,6 +94,14 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+
+    .link {
+      color: $secondary-color;
+      &:hover {
+        color: lighten($secondary-color, 30);
+        @include easeOut();
+      }
+    }
   }
 
   .job-1 {
@@ -112,6 +120,15 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+
+    img {
+      width: 100%;
+      border: 2px #fff solid;
+    }
+  }
+
+  .avenue {
+    text-align: center;
   }
 }
 
