@@ -87,7 +87,7 @@ main {
     grid-area: bioimage;
     transform: scale(1);
     margin: auto;
-    border-radius: 50%;
+    //border-radius: 50%;
     border: $secondary-color 3px solid;
   }
 
@@ -158,8 +158,14 @@ main {
   align-items: center;
   margin-top: 1rem;
 
-  div {
-    font: 2rem;
+  .info {
+    //margin-bottom: 2rem;
+    //padding: 0.2rem 1rem;
+    font-size: 1.5rem;
+  }
+
+  .boxes {
+    font: 3rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
